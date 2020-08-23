@@ -5,10 +5,11 @@ gcc -o nftq main.c getters.c processing.c  -lnftables -I ./headers/ -I ./headers
 
 run the program with no argument to get help.
 
-Once you got the counters (bytes or packets), you can create graph(s) with your favorite monitoring solution.
-In my case, I use zabbix (https://www.zabbix.com/):
-
+Once you got the counters (bytes or packets), you can create graph(s) with your favorite monitoring solution (zabbix, munin, ... etc ...).
+In my case, I use zabbix (https://www.zabbix.com/). Zabbix upload/Download graph (1) and statistics from nftq command (2) look like this:
+ 
 ![zabbix-graph](screenshots/zabbix-1.png)
 
+![zabbix-graph](screenshots/zabbix-data-flow.png)
 
 Note: If you want to use previous/different versions of nftables , you will have to compile yourself then copy/use the corresponding header files: config.h and those inside "include".
