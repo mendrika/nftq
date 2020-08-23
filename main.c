@@ -13,7 +13,7 @@
 
 void print_help() {
 	printf("nftq - simple program to query nftables counters - ",NFTQ_VERSION);
-	printf("\n- must run as root\n- must follow this arguments order:\n\n   nft <family> <table> <chain> <comment/handle> [str_comment | int_handle_value] < packets/bytes>\n\n");
+	printf("\n- must run as root\n- must follow this arguments order:\n\n   nftq <family> <table> <chain> <comment/handle> [str_comment | int_handle_value] < packets/bytes>\n\n");
 	printf("NB: comment or handle is used by nftq to identify a rule (if several rules contain the exact same comment, nftq will match the first one it meets)\n");
 	printf("example:\nsudo ./nftq  ip filter INPUT comment \"total in\" bytes\n\n");
 }
