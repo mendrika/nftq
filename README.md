@@ -1,4 +1,4 @@
-/!\ works with nftables 9.4 and prior versions
+/!\ works with nftables 9.6 and libnftnl 1.17
 
 cd to nftq folder then compile with:
 gcc -o nftq main.c getters.c processing.c  -lnftables -I ./headers/ -I ./headers/nftables/
