@@ -7,6 +7,9 @@
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
 
+/* Define to 1 if you have the `edit' library (-ledit). */
+/* #undef HAVE_LIBEDIT */
+
 /* Define to 1 if you have the `gmp' library (-lgmp). */
 #define HAVE_LIBGMP 1
 
@@ -62,7 +65,7 @@
 #define PACKAGE_NAME "nftables"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "nftables 0.9.6"
+#define PACKAGE_STRING "nftables 0.9.8"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "nftables"
@@ -71,16 +74,16 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.9.6"
+#define PACKAGE_VERSION "0.9.8"
 
 /* Release name */
-#define RELEASE_NAME "Capital Idea #2"
+#define RELEASE_NAME "E.D.S."
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "0.9.6"
+#define VERSION "0.9.8"
 
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
    `char[]'. */
