@@ -39,15 +39,6 @@ int main(int argc, char *argv[]) {
 	if( nft == NULL )
 		return EXIT_FAILURE;
 	
-	/*
-		now let's take a snapshot (if I could call it so) of the ruleset into nft by running "list ruleset"
-		In fact, all the information we need (tables, chains, objects, statements) are accessible via the cache member
-		of the nft_ctx structure (structure definition available in rule.h)
-		NB: if there is a better way, feel free to let me know
-	*/
-	// nft_ctx_buffer_output() redirects output to buffer (see struct output_ctx in nftables.h), we do not need output, we just need the nft_ctx)
-	if(nft_ctx_buffer_output(nft) || nft_run_cmd_from_buffer(nft, list_cmd))
-		return EXIT_FAILURE;
 /***************************************************************************************************/
 	/*
 		5 progressive steps to get the bytes/counters (4 to access + 1 to print):
