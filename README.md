@@ -15,4 +15,7 @@ In my case, I use zabbix (https://www.zabbix.com/). As example, here is an uploa
 
 ![zabbix-graph](screenshots/zabbix-data-flow.png)
 
-A Zabbix dashboard that shows my overall internet consumption graph and a widget displaying latest statistics values.
+A Zabbix dashboard that shows my overall internet consumption graph and a widget displaying latest statistics values:
+
+![zabbix-graph](screenshots/zabbix-dashboard.png)
+
