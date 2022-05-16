@@ -19,3 +19,7 @@ A Zabbix dashboard that shows my overall internet consumption graph and a widget
 
 ![zabbix-graph](screenshots/zabbix-dashboard.png)
 
+A much more interesting feature of Zabbix is calculated item, which may interest some people. Things like showing (in realtime) download and upload consumption may be more than useful and combined with triggers, such information may help sysadmin set per user quota and alert. I personnaly use it to monitor my consumption:
+
+![zabbix-graph](screenshots/dashboard2.png)
+
