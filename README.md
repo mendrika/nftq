@@ -23,17 +23,17 @@ Once you got the counters (bytes or packets), you can create graph(s) with your 
 
 In my case, I use zabbix (https://www.zabbix.com/). As example, here is an upload/Download graph (1) and statistics provided by nftq to Zabbix web interface (2):
 
-# nftq collected data by Zabbix:
+## nftq collected data by Zabbix:
 ![zabbix-graph](screenshots/zabbix-data-flow.png)
 
-# Generated graphs by zabbix (download/upload):
+## Generated graphs by zabbix (download/upload):
 ![zabbix-graph](screenshots/zabbix-1.png)
 
-# Custom Zabbix dashboard showing graphs/data and stats:
+## Custom Zabbix dashboard showing graphs/data and stats:
 A Zabbix dashboard that shows my overall internet consumption graph and a widget displaying latest statistics values:
 ![zabbix-graph](screenshots/zabbix-dashboard.png)
 
-# Additionnal widget that shows total download consumption:
+## Additionnal widget that shows total download consumption:
 A much more interesting feature of Zabbix is calculated item, which may interest some people. Things like showing (in realtime) download and upload consumption may be more than useful and combined with triggers, such information may help sysadmin set per user quota and alert. I personnaly use it to monitor my consumption:
 
 ![zabbix-graph](screenshots/dashboard2.png)
